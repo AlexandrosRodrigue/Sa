@@ -88,10 +88,6 @@ export default function Cadastro() {
             <View style={styles.segundoBody}>
               <Text style={styles.tituloBodyDois}>Enforme endereço para entrega</Text>
               <View style={styles.linhaDois}>
-                {/* <View style={styles.escritos}>
-                  <Text style={styles.textoInputDois}>CEP</Text>
-                  <Text style={styles.textoInputDois}>Endereço</Text>
-                </View> */}
                 <View style={styles.inputViewMenor}>
                   <TextInput 
                     value={cep}
